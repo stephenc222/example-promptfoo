@@ -1,0 +1,14 @@
+{
+  "name": "example-promptfoo",
+  "version": "1.0.0",
+  "description": "Example project demonstrating Promptfoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -a && source .env && set +a && npx promptfoo@latest eval",
+    "view": "npx promptfoo@latest view",
+    "clean": "npx promptfoo@latest cache clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

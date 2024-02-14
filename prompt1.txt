@@ -1,0 +1,16 @@
+Write a diary entry from someone living in {{topic}}.
+Return a JSON object with metadata and the diary entry.
+The metadata should include the person's name, location, and the date.
+The date should be the current date.
+The diary entry key should be named "diary_entry" and as a raw string.
+
+An example of the expected output is:
+
+{
+  "metadata": {
+    "name": "John Doe",
+    "location": "New York",
+    "date": "2020-01-01"
+  },
+  "diary_entry": "Today was a good day."
+}
